@@ -15,5 +15,23 @@ git config user.eamil (user name)
 git push origin (branch name)
 
 git config --global credential.helper manager  == incase the command get stuch use this command it will login the git using ui and allow the git bash to push the code 
+#############################################################################################################################################################
+##################################################################################################################################################################
 
 
+
+Refined Git Notes
+git status: Technically checks the state of the working directory and staging area (which files are modified or ready to commit), rather than the logs.
+
+git log: Correct! This shows the commit history.
+
+Config Typo: In your notes, you have git config user.eamil. Make sure to fix that to email so the command works when you copy-paste it later!
+
+Branching: Remember, if you are on the notes branch, you should use git push origin notes. If you are on main, use git push origin main.
+
+Pro-Tip for the "Stuck" Push
+If you ever find yourself stuck again and the UI doesn't pop up, you can try this command to "unset" any stuck credentials before running the manager command:
+
+Bash
+git config --global --unset credential.helper
+git config --global credential.helper manager
