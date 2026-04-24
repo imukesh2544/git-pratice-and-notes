@@ -1,0 +1,5 @@
+#Basic command fot git. 
+git status    === to check the logs fot the git branch 
+git log   == to check the logs of the current repo and branch 
+git clone <clone repo url>   == to clone some public repo 
+git push <remote repo> branch name. 
