@@ -2,4 +2,18 @@
 git status    === to check the logs fot the git branch 
 git log   == to check the logs of the current repo and branch 
 git clone <clone repo url>   == to clone some public repo 
-git push <remote repo> branch name. 
+git push <remote repo> branch name.
+
+#pushing my commit to the remote repo 
+vi git.txt
+git add git.txt
+git commit -m "commit my new code"
+
+git config user.email  (yoyr email )
+git config user.eamil (user name)
+
+git push origin (branch name)
+
+git config --global credential.helper manager  == incase the command get stuch use this command it will login the git using ui and allow the git bash to push the code 
+
+
